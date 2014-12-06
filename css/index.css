@@ -1,3 +1,9 @@
 /**
  * index.css
  */
+ 
+#join p {
+  color: #ff654b;
+  font-style: normal;
+  font-weight: bold;
+}
