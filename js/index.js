@@ -72,6 +72,9 @@ console.log("===============[ jsStudy.check_pw called ]===============");
   }
 
   if (elem_pw1 !== elem_pw2) {
+    elem_msg2.innerHTML = "비밀 번호가 일치하지 않습니다.";
+    elem_pw2.focus();
+    return false;
   }
 
   return true;
