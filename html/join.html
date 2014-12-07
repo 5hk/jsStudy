@@ -1,2 +1,26 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>jsStudy</title>
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body id="join">
+
+  <h2>회원가입</h2>
+아이디: <input id="id" type="text" />&nbsp;<input type="button" id="button_duplicated_check" onclick="jsStudy.check_id();" value="중복확인" />
+<p id="msg_id"></p>
+패스워드: <input id="pw1" type="password" />
+<p id="msg_pw1"></p>
+패스워드확인: <input id="pw2" type="password" />
+<p id="msg_pw2"></p>
+홈페이지: <input id="homepage" type="text" />
+<p></p>
+전화번호: <input id="phonenumber" type="text" />
+<p></p>
+주소: <input id="address" type="text" />
+<p></p>
+<input type="button" id="button_cancel" value="취소" />
+<input type="button" id="button_join" value="가입" onclick="jsStudy.join();" />
+</body>
 </html>
